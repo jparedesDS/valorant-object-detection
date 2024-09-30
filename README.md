@@ -1,5 +1,7 @@
 # Valorant Players Detector
 
+- MODEL LINK: https://huggingface.co/jparedesDS/valorant-yolov10b
+
 #### Supported Labels
 ['Body', 'Head']
 
