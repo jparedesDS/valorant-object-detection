@@ -1,11 +1,10 @@
 # Valorant Players Detector
 
-- MODEL LINK: https://huggingface.co/jparedesDS/valorant-yolov10b
-
 #### Supported Labels
 ['Body', 'Head']
+- Model YOLOv10b: https://huggingface.co/jparedesDS/valorant-yolov10b
 
-#### ALL my models YOLOv10 & YOLOv9
+#### ALL my models YOLOv10 & YOLOv9 for Counter Strike 2
 - Yolov9c: https://huggingface.co/jparedesDS/cs2-yolov9c
 - Yolov10s: https://huggingface.co/jparedesDS/cs2-yolov10s
 - Yolov10m: https://huggingface.co/jparedesDS/cs2-yolov10m
