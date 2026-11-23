@@ -1,66 +1,19 @@
-# Valorant Players Detector
+﻿<div align="center">
 
-#### Supported Labels
-['Body', 'Head']
+# This project has moved
 
-#### MODELS YOLO11m, YOLOv10 for Valorant Object Detection
-- Yolov10b: https://huggingface.co/jparedesDS/valorant-yolov10b
-- Yolo11m: https://huggingface.co/jparedesDS/valorant-yolo11m
+**This repository is archived and read-only.**
 
-#### ALL my models YOLO11, YOLOv10 & YOLOv9
-- Yolov9c: https://huggingface.co/jparedesDS/cs2-yolov9c
-- Yolov10s: https://huggingface.co/jparedesDS/cs2-yolov10s
-- Yolov10m: https://huggingface.co/jparedesDS/cs2-yolov10m
-- Yolov10b: https://huggingface.co/jparedesDS/cs2-yolov10b
-- Yolo11l: https://huggingface.co/jparedesDS/deadlock-yolo11l
+The project now lives in the consolidated **Object Detection Models** model zoo:
 
-#### How to use
-```
-from ultralytics import YOLO
+### → [jparedesDS/object-detection-models](https://github.com/jparedesDS/object-detection-models)
 
-# Load a pretrained YOLO model
-model = YOLO(r'weights\yolov10b_vlr.pt')
+**Direct link:** [Valorant Player Detection](https://github.com/jparedesDS/object-detection-models/tree/main/projects/valorant-players-detection)
 
-# Run inference on 'image.png' with arguments
-model.predict(
-    'image.png',
-    save=True,
-    device=0
-    )
-```
-#### Confusion matrix normalized
-![confusion_matrix_normalized.png](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/_yp5HjaiN54WjIur4HS8T.png)
-#### Labels
-![labels.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/MtFhhrP7_kp4d2pJRC8ss.jpeg)
-#### Results
-![results.png](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/JLy3fffqvxIoY4C0wcwjR.png)
-#### Predict
-![train_batch34921.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/R0xOHQsHqSpq-8Hc8umRY.jpeg)
-![val_batch0_pred.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/KWygqgi-Gka7eNdKCkPN1.jpeg)
-```
-YOLOv10b summary (fused): 383 layers, 20,414,236 parameters, 0 gradients, 97.9 GFLOPs
-                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 36/36 [00:06<00:00,  5.30it/s]
-                   all        999       2016      0.959      0.886      0.925      0.631
-                  Body        966       1029      0.969      0.914      0.955       0.76
-                  Head        936        987      0.948      0.857      0.896      0.503
-```
+**Model weights:** [Hugging Face](https://huggingface.co/jparedesDS)
 
-#### ALL models
-https://huggingface.co/jparedesDS
+</div>
 
-## ❤️ Why buy me a coffee?
+---
 
-If any of my repositories have been useful to you, saved you time, or inspired you in any way, you can support my work by buying me a coffee ☕
-Your support helps me to:
-
-Keep projects maintained and improved
-
-Create new open source repositories
-
-Spend more time documenting and explaining the code
-
-👉 Buy me a coffee here:
-
-<a href="https://buymeacoffee.com/joseparedes" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200"/>
-</a>
+**Español:** este repositorio está archivado. El proyecto y su documentación se mantienen ahora en [object-detection-models](https://github.com/jparedesDS/object-detection-models/tree/main/projects/valorant-players-detection).
